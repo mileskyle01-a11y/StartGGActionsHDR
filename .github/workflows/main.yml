@@ -32,7 +32,7 @@ jobs:
         # But first we read the WEBHOOK secret and create an
         # environment variable with the same name.
         env:
-          STATE: "ID"
+          STATE: "EST"
           TIMEZONE: "PT"
           GAME_ID: 1386
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
